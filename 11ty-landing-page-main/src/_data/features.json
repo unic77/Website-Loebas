@@ -1,32 +1,22 @@
 [
   {
-    "title": "AWE.SOME Feature One",
-    "icon": "icon1.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
-  },
-  {
-    "title": "AWE.SOME Feature Two",
-    "icon": "icon2.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
-  },
-  {
-    "title": "AWE.SOME Feature Three",
-    "icon": "icon3.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
-  },
-  {
-    "title": "AWE.SOME Feature Four",
+    "title": "Websites",
     "icon": "icon4.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Websites zoals deze!"
   },
   {
-    "title": "AWE.SOME Feature Five",
+    "title": "Mobiele Apps",
+    "icon": "icon3.svg",
+    "content": "Ons team heeft al meerdere cross-platform mobiele apps ontwikkeld."
+  },
+  {
+    "title": "Embedded Software",
+    "icon": "icon2.svg",
+    "content": "Software voor embedded systemen zoals de Raspberry Pi of arduino..."
+  },
+  {
+    "title": "All uw ideeën",
     "icon": "icon5.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
-  },
-  {
-    "title": "AWE.SOME Feature Six",
-    "icon": "icon6.svg",
-    "content": "Maecenas pulvinar ultricies dolor, vitae sagittis nunc aliquam non. Cras vitae eros mi. Pellentesque ac orci mi. Ut dignissim tincidunt ex id tincidunt."
+    "content": "Heeft u een idee? Wij kunnen het voor u realiseren!"
   }
 ]

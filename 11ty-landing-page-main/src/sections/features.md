@@ -1,7 +1,6 @@
 ---
-title: Most AWE.SOME Features
-afterTitle: ...and so much more!
+title: Onze ervaring
+afterTitle: ... voor de uitwerking van uw idee contacteer ons zeker!
 type: features
 ---
 
-Pellentesque ullamcorper fringilla odio at pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla mattis erat dui, ut tempor lectus dictum id.
