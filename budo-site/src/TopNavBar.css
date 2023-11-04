@@ -1,0 +1,11 @@
+.divCollor {
+    background-color: white;
+}
+
+.text {
+    color: rgb(17 24 39);
+}
+
+.text:hover {
+    color: rgb(79 70 229),
+}

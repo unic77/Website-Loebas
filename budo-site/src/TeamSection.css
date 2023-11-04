@@ -1,0 +1,27 @@
+.container{
+    margin-top: 80px;
+    width: max-content;
+    height: max-content;
+}
+
+.listElement{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 100px;
+    z-index: 10;
+}
+
+.col {
+    width: auto;
+    height: auto;
+    display: flex !important;
+    flex: 1 !important;
+    align-items: stretch;
+}
+
+.photo{
+    border-radius: 10px;
+    margin-left: 10;
+    height: 100px;
+}
