@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import './TopNavBar.css'
-import { Link, Outlet, matchPath, useLocation } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 
 
 const navigation = [
@@ -21,13 +21,10 @@ export default function TopNavBar() {
 
   let location = useLocation();
 
-  console.log(`${location.pathname}/*`)
-
   return (
       <div>
-        <div className="bg-white">
-          <header className="absolute inset-x-0 top-0 z-50">
-            <div className="divCollor">
+          <header className="absolute inset-x-0 top-0 z-50 shadow-lg">
+            <div className="bg-white">
               <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <Link to="/">
                   <div className="-m-1.5 p-1.5">
@@ -54,17 +51,17 @@ export default function TopNavBar() {
                     location.pathname.includes(item.href) ? 
                       (
                         <Link to={item.href} key={item.href}>
-                          <text className="text-sm font-semibold leading-6 text-indigo-600">
+                          <div className="text-xl font-semibold leading-6 text-indigo-600">
                             {item.name}
-                          </text>
+                          </div>
                         </Link>
                       )
                       :
                       (
                         <Link to={item.href} key={item.href}>
-                          <text className="text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600">
+                          <div className="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600">
                             {item.name}
-                          </text>
+                          </div>
                         </Link>
                       )
                   ))}
@@ -136,8 +133,8 @@ export default function TopNavBar() {
               </Dialog>
             </div>
           </header>
-        </div>
-        <div>
+
+        <div className='md:container'>
           <Outlet/>
         </div>
       </div>
