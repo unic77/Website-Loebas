@@ -29,10 +29,10 @@ export default function Hero() {
             </div>
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                Tailor made softwear solutions.
+                Tailor made software solutions.
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Budo provides tailor made softwear for your company. We are a company made by students from the Univirsity of Hasselt. 
+                Budo provides tailor made software for your company. We are a company made by students from the University of Hasselt. 
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
               </p>
