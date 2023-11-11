@@ -6,10 +6,9 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 
 
 const navigation = [
-  { name: 'Templates', href: '/templates', bool: false },
   { name: 'Projects', href: '/projects', bool: true},
-  { name: 'Team', href: '/team', bool: false},
   { name: 'Company', href: '/company', bool: false },
+  { name: 'Team', href: '/team', bool: false},
 ]
 
 function onClick(){
@@ -31,7 +30,7 @@ export default function TopNavBar() {
                     <span className="sr-only">Your Company</span>
                     <img
                       className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      src="/src/assets/logo.jpg"
                       alt=""
                     />
                   </div>
