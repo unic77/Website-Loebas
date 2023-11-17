@@ -26,7 +26,7 @@ const people = [
   
   export default function TeamSection() {
     return (
-      <div className="w-screen h-screen pt-20">
+      <div className="w-screen h-screen pt-20 bg-white">
         <div className="mx-auto bg-white grid max-w-7xl gap-x-8 px-6 lg:px-8">
           <div className="max-w-2xl md:container">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl flex items-center justify-center text-indigo-600">Meet our team</h2>

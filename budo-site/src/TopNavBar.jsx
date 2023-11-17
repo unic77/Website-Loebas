@@ -133,7 +133,7 @@ export default function TopNavBar() {
             </div>
           </header>
 
-        <div className='md:container'>
+        <div className='w-screen'>
           <Outlet/>
         </div>
       </div>

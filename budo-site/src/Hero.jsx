@@ -3,7 +3,7 @@ import './Hero.css'
 export default function Hero() {
 
   return (
-      <div className="md:container bg-white">
+      <div className="w-screen bg-white">
         <div className="relative isolate px-6 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
