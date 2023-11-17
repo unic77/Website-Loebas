@@ -1,8 +1,8 @@
-import TeamSection from './TeamSection.jsx'
-import ErrorPage from './ErrorPage.jsx'
+import TeamSection from './pages/TeamPage.jsx'
+import ErrorPage from './pages/ErrorPage.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import TopNavBar from './TopNavBar.jsx'
-import Hero from './Hero.jsx'
+import Homepage from './pages/Homepage.jsx'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<TopNavBar/>}>
-          <Route index element={<Hero />}/>
+          <Route index element={<Homepage />}/>
           <Route path='Team' element={<TeamSection />}>
             <Route path='test/*' element={<TeamSection />}/>
           </Route>
