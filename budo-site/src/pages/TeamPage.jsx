@@ -1,4 +1,4 @@
-import './TeamSection.css'
+import './TeamPage.css'
 
 const people = [
     {
